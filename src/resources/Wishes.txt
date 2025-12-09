@@ -1,0 +1,2 @@
+WISH1 W102 "Lego Set" "Price:150TL, Brand:LEGO" null null null null 2 PENDING
+WISH1 W103 "CANDIEES PLSS" "I want candy" null null null null 0 APPROVED
