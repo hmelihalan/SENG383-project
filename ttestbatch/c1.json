@@ -1,0 +1,175 @@
+[
+  {
+    "code": "CENG 101",
+    "name": "Introduction to Computer Engineering",
+    "year": 1,
+    "instructor": "Dr. Ada",
+    "theory_hours": 3,
+    "lab_hours": 0,
+    "capacity": 60
+  },
+  {
+    "code": "CENG 101 Lab",
+    "name": "Introduction to CE Lab",
+    "year": 1,
+    "instructor": "Dr. Ada",
+    "theory_hours": 0,
+    "lab_hours": 2,
+    "capacity": 30
+  },
+
+  {
+    "code": "MATH 101",
+    "name": "Calculus I",
+    "year": 1,
+    "instructor": "Dr. Euler",
+    "theory_hours": 3,
+    "lab_hours": 0,
+    "capacity": 80
+  },
+
+  {
+    "code": "PHYS 101",
+    "name": "Physics I",
+    "year": 1,
+    "instructor": "Dr. Newton",
+    "theory_hours": 3,
+    "lab_hours": 0,
+    "capacity": 70
+  },
+  {
+    "code": "PHYS 101 Lab",
+    "name": "Physics I Lab",
+    "year": 1,
+    "instructor": "Dr. Newton",
+    "theory_hours": 0,
+    "lab_hours": 2,
+    "capacity": 30
+  },
+
+  {
+    "code": "CENG 201",
+    "name": "Data Structures",
+    "year": 2,
+    "instructor": "Dr. Turing",
+    "theory_hours": 3,
+    "lab_hours": 0,
+    "capacity": 60
+  },
+  {
+    "code": "CENG 201 Lab",
+    "name": "Data Structures Lab",
+    "year": 2,
+    "instructor": "Dr. Turing",
+    "theory_hours": 0,
+    "lab_hours": 2,
+    "capacity": 35
+  },
+
+  {
+    "code": "CENG 202",
+    "name": "Computer Organization",
+    "year": 2,
+    "instructor": "Dr. Hopper",
+    "theory_hours": 3,
+    "lab_hours": 0,
+    "capacity": 60
+  },
+  {
+    "code": "CENG 202 Lab",
+    "name": "Computer Organization Lab",
+    "year": 2,
+    "instructor": "Dr. Hopper",
+    "theory_hours": 0,
+    "lab_hours": 2,
+    "capacity": 30
+  },
+
+  {
+    "code": "CENG 301",
+    "name": "Algorithms",
+    "year": 3,
+    "instructor": "Dr. Knuth",
+    "theory_hours": 3,
+    "lab_hours": 0,
+    "capacity": 60
+  },
+  {
+    "code": "CENG 301 Lab",
+    "name": "Algorithms Lab",
+    "year": 3,
+    "instructor": "Dr. Knuth",
+    "theory_hours": 0,
+    "lab_hours": 2,
+    "capacity": 35
+  },
+
+  {
+    "code": "CENG 302",
+    "name": "Operating Systems",
+    "year": 3,
+    "instructor": "Dr. Tanenbaum",
+    "theory_hours": 3,
+    "lab_hours": 0,
+    "capacity": 60
+  },
+  {
+    "code": "CENG 302 Lab",
+    "name": "Operating Systems Lab",
+    "year": 3,
+    "instructor": "Dr. Tanenbaum",
+    "theory_hours": 0,
+    "lab_hours": 2,
+    "capacity": 35
+  },
+
+  {
+    "code": "CENG 303",
+    "name": "Database Systems",
+    "year": 3,
+    "instructor": "Dr. Garcia",
+    "theory_hours": 3,
+    "lab_hours": 0,
+    "capacity": 60
+  },
+  {
+    "code": "CENG 303 Lab",
+    "name": "Database Systems Lab",
+    "year": 3,
+    "instructor": "Dr. Garcia",
+    "theory_hours": 0,
+    "lab_hours": 2,
+    "capacity": 35
+  },
+
+  {
+    "code": "CENG-EL 310",
+    "name": "Machine Learning",
+    "year": 3,
+    "instructor": "Dr. Bishop",
+    "theory_hours": 3,
+    "lab_hours": 0,
+    "capacity": 70,
+    "is_elective": true
+  },
+  {
+    "code": "SENG-EL 330",
+    "name": "Software Quality Assurance",
+    "year": 3,
+    "instructor": "Dr. Pressman",
+    "theory_hours": 3,
+    "lab_hours": 0,
+    "capacity": 70,
+    "is_elective": true
+  },
+  {
+    "code": "SENG-EL 340",
+    "name": "Agile Project Management",
+    "year": 3,
+    "instructor": "Dr. Schwaber",
+    "theory_hours": 3,
+    "lab_hours": 0,
+    "capacity": 70,
+    "is_elective": true
+  }
+]

@@ -1,0 +1,9 @@
+[
+  { "name": "A101", "kind": "theory", "capacity": 100 },
+  { "name": "B201", "kind": "theory", "capacity": 80 },
+  { "name": "C301", "kind": "theory", "capacity": 60 },
+
+  { "name": "Lab A1", "kind": "lab", "capacity": 35 },
+  { "name": "Lab B1", "kind": "lab", "capacity": 30 },
+  { "name": "Lab C1", "kind": "lab", "capacity": 25 }
+]

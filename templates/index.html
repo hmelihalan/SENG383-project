@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BeePlan Course Scheduler</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+  <div class="app-wrapper">
+    <!-- LEFT SIDEBAR -->
+    <aside class="sidebar">
+      <h1 class="logo-title">BeePlan Course Scheduler</h1>
+      <p class="logo-subtitle">Computer Engineering Department</p>
+
+      <div class="sidebar-section">
+        <h2>Input Data</h2>
+
+        <button id="btnUploadCurriculum" class="btn full">📁 Upload Curriculum File</button>
+        <input type="file" id="curriculumFile" accept=".json" style="display:none">
+
+        <button id="btnUploadInstructor" class="btn full">👨‍🏫 Upload Instructor Data</button>
+        <input type="file" id="instructorFile" accept=".json" style="display:none">
+
+        <button id="btnUploadClassroom" class="btn full">🏫 Upload Classroom Data</button>
+        <input type="file" id="classroomFile" accept=".json" style="display:none">
+      </div>
+>
+
+      <div class="sidebar-section">
+        <h2>Settings</h2>
+
+        <label class="field-label">
+          Max Theory Hours/Day
+          <input type="number" id="maxTheory" value="4" min="1" max="10">
+        </label>
+
+        <label class="field-label">
+          Max Lab Capacity
+          <input type="number" id="maxLabCapacity" value="40" min="1" max="300">
+        </label>
+
+        <label class="checkbox">
+          <input type="checkbox" id="prefConsecutiveLabs" checked>
+          Prefer 2 consecutive lab hours
+        </label>
+
+        <label class="checkbox">
+          <input type="checkbox" id="fridayExamBlock" checked>
+          Friday 13:20–15:10 exam block
+        </label>
+      </div>
+
+      <div class="sidebar-section">
+        <button id="btnValidate" class="btn full secondary">✅ Validate Inputs</button>
+        <button id="btnExport" class="btn full warning">📤 Export Schedule</button>
+      </div>
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <main class="main-card">
+      <header class="main-header">
+        <div class="header-text">
+          <h2>BeePlan Course Scheduler</h2>
+          <span>Computer Engineering Department</span>
+        </div>
+        <button id="btnGenerate" class="btn primary">
+          🚀 Generate Schedule
+        </button>
+      </header>
+
+      <!-- TABS -->
+      <div class="tabs">
+        <button class="tab active" data-tab="schedule">📅 Schedule View</button>
+        <button class="tab" data-tab="conflicts">⚠️ Conflict Report</button>
+        <button class="tab" data-tab="stats">📊 Statistics</button>
+      </div>
+
+      <!-- TAB CONTENT -->
+
+      <!-- Schedule View -->
+      <section id="tab-schedule" class="tab-content active">
+        <div class="year-buttons">
+          <button class="year-btn active" data-year="1">1st Year</button>
+          <button class="year-btn" data-year="2">2nd Year</button>
+          <button class="year-btn" data-year="3">3rd Year</button>
+          <button class="year-btn" data-year="4">4th Year</button>
+        </div>
+
+        <div class="schedule-table-container">
+          <table id="scheduleTable">
+            <thead>
+              <tr>
+                <th>Time</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+              </tr>
+            </thead>
+            <tbody id="scheduleBody">
+              <!-- filled by JS -->
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- Conflict Report -->
+      <section id="tab-conflicts" class="tab-content">
+        <div id="conflictSummary" class="conflict-summary"></div>
+        <div id="conflictList" class="conflict-list"></div>
+      </section>
+
+      <!-- Statistics -->
+      <section id="tab-stats" class="tab-content">
+        <div id="statsContainer" class="stats-panel"></div>
+      </section>
+    </main>
+  </div>
+
+  <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>

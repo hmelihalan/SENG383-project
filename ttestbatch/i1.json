@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Dr. Ada",
+    "available": [
+      { "day": 0, "slots": [0,1,2,3,4] },
+      { "day": 1, "slots": [0,1,2,3,4] },
+      { "day": 2, "slots": [0,1,2,3,4] },
+      { "day": 3, "slots": [0,1,2,3,4] },
+      { "day": 4, "slots": [] }
+    ]
+  },
+  {
+    "name": "Dr. Euler",
+    "available": [
+      { "day": 0, "slots": [0,1,2,3,4] },
+      { "day": 1, "slots": [0,1,2,3,4] },
+      { "day": 2, "slots": [0,1,2] },
+      { "day": 3, "slots": [0,1,2,3,4] },
+      { "day": 4, "slots": [] }
+    ]
+  },
+  {
+    "name": "Dr. Newton",
+    "available": [
+      { "day": 0, "slots": [0,1,2,3,4] },
+      { "day": 1, "slots": [0,1,2,3,4] },
+      { "day": 2, "slots": [0,1,2,3,4] },
+      { "day": 3, "slots": [0,1,2,3,4] },
+      { "day": 4, "slots": [] }
+    ]
+  },
+  {
+    "name": "Dr. Turing",
+    "available": [
+      { "day": 0, "slots": [0,1,2,3,4] },
+      { "day": 1, "slots": [0,1,2,3,4] },
+      { "day": 2, "slots": [0,1,2,3,4] },
+      { "day": 3, "slots": [0,1,2,3,4] },
+      { "day": 4, "slots": [] }
+    ]
+  },
+  {
+    "name": "Dr. Hopper",
+    "available": [
+      { "day": 0, "slots": [0,1,2,3,4] },
+      { "day": 1, "slots": [0,1,2,3,4] },
+      { "day": 2, "slots": [0,1,2,3,4] },
+      { "day": 3, "slots": [0,1,2,3,4] },
+      { "day": 4, "slots": [] }
+    ]
+  }
+]
