@@ -1,5 +1,4 @@
-# BeePlan Course Scheduler (Demo)
-
+# BeePlan Course Scheduler 
 ## Setup
 
 ```bash
