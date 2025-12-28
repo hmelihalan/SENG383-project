@@ -1,0 +1,2 @@
+TASK1 T 101 "Math Homework" "Solve pages 10 to 20" 2025-03-01 15:00 null null null null 10 COMPLETED
+TASK2 T 102 "School Picnic Preparation" "Göksu Park" null null 2025-03-05 2025-03-05 10:00 12:00 10 COMPLETED

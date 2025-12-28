@@ -1,0 +1,4 @@
+WISH1 W102 "Lego Set" "Price:150TL, Brand:LEGO" null null null null 2 APPROVED
+WISH1 W103 "dsds" "sdsdsds" null null null null 0 APPROVED
+WISH1 W104 "sdasdasd" "ada" null null null null 0 PENDING
+WISH1 W105 "asdas" "adsd" null null null null 0 PENDING
